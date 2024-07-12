@@ -1,4 +1,4 @@
-**A Deep Learning Approach for Diagnosis of Down’s Syndrome on Image Data**  
+# A Deep Learning Approach for Diagnosis of Down’s Syndrome on Image Data
 
 ***Vaibhav Pise 1\*, Hissamuddin Hannure2, Niyamat Chaudhari 3, Prachi Mahajan4, Pushpi Rani5** 1\*Dept. of Computer Engineering, G H Raisoni College of Engineering and Management, Pune, India E-Mail: vaibhavlspise2001@gmail.com* 
 
@@ -36,7 +36,7 @@ The  paper  underscores  the  significance  of  leveraging  computer  vision  an
 
 ` `In  the  study  conducted  by  kurt  and  colleagues  [13],  Down  syndrome  is  a  prevalent  genetic condition caused by trisomy 21 and is characterized by distinct physical features, including a round face with slight flattening at the back of the head, slanting eyes, and a small mouth with a larger tongue. This condition, which affects about 1 in 800 infants, has seen a significant increase in life expectancy, from 25 in 1983 to 60 today. Recognizing Down syndrome from facial images holds promise for applications in public spaces such as airports and security centers, where it can be used to detect individuals with Down syndrome, alerting the system or security to potential unique needs. Moreover, it can serve as an initial step in the broader context of using facial images to identify various medical abnormalities. A brief overview of literature is presented in table 1.1. 
 
-`                                        `**TABLE 1.1:**  Literature survey overview 
+**TABLE 1.1:**  Literature survey overview 
 
 
 
@@ -80,9 +80,9 @@ VGG16 is quite like VGG19; it is like its close sibling. It has 16 layers, with 
 
 VGG19 is a popular choice due to its simplicity and effectiveness. It is like a 19-layer cake with 16 layers  for  understanding  image  features  and  3  layers  for  making  sense  of  it  all  [4,5].  This architecture is fantastic at picking out important aspects in images as shown in figure 1.1. When it comes to transfer learning with VGG19, we borrow some pre-trained knowledge from a VGG19 model that has been well-trained on ImageNet, a big dataset [6]. We start with those pre-trained weights and then tweak the final layers to make the model fit our specific task. It is like using a ready-made foundation and redecorating the house to suit our taste while keeping the essential structure [7]. 
 
-![](Aspose.Words.fe3fa5ec-ec57-4c52-b164-e299549e86c1.001.png)
 
-`                                         `**FIGURE 1.1**: VGG19 Architecture 
+![](Aspose.Words.fe3fa5ec-ec57-4c52-b164-e299549e86c1.001.png)
+**FIGURE 1.1**: VGG19 Architecture 
 
 **1. 3.2 DATASET** 
 
